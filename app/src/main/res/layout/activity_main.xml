@@ -6,12 +6,23 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="117dp"
+        android:layout_height="39dp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_view"
+      />
+
     <TextView
         android:id="@+id/text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello Portrait!"
-        android:textSize="24sp"
+        android:text="@string/hello_portrait"
+        android:textSize="@dimen/text_view_size"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -27,7 +38,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="39dp"
-        android:text="Show Message"
+        android:text="@string/show_message"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
