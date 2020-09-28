@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LandscapeOrientation</string>
+    <string name="portrait_mode">Portrait mode</string>
+    <string name="landscape_mode">Landscape mode</string>
+    <string name="show_message">Show Message</string>
+    <string name="hello_portrait">Hello Portrait!</string>
+    <string name="hello_landscape_in_tablet">Hello Landscape in Tablet!</string>
+    <string name="hello_portrait_in_tablet">Hello Portrait in Tablet!</string>
+</resources>
